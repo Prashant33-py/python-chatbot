@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hello there! How can I be helpful?",
+        "Hi there! What can I do for you?",
+        "Hi there! How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","That was good!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you do?"
+      ],
+      "responses": [
+        "We sell different types coffee and tea",
+        "We have different types coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What are the different payment methods?",
+        "How can I pay?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept cash as well as cards such as VISA, Mastercard and Paypal",
+        "We accept cash and most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "When does the cafe open?",
+        "What are the timings for the cafe?",
+        "At what time does the cafe open?"
+      ],
+      "responses": [
+        "The timings of our cafe for everyday are 8:00 A.M. to 11:00 P.M. and closed on Sundays",
+        "Our cafe opens at 8:00 A.M and closes at 11:00 P.M. and we are closed on Sundays"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "contact-us",
+      "patterns": [
+        "How do I contact the cafe owner",
+        "How can I contact the cafe owner?",
+        "Can I have the owner's number?",
+        "What is the contact number of the cafe owner?"
+      ],
+      "responses": [
+        "You can contact the owner at XXXXXXXXXX number anytime.",
+        "This is the contact number of the owner, XXXXXXXX."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "You are very helpful",
+        "You were very useful",
+        "I was happy that you were useful for me",
+        "You were of great help!"
+      ],
+      "responses": [
+        "I am happy that I was helpful!",
+        "I am glad that I was of your help!"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Can you elaborate more?",
+        "What's on the menu?",
+        "What are the types of coffee or tea you sell?",
+        "Show me today's menu",
+        "What types of tea and coffee do you sell?",
+        "What types of coffee and tea do you sell?",
+        "Menu please!",
+        "Today's Menu please"
+      ],
+      "responses": ["COFFEE: \n - Black Coffee \n - Decaf \n - Espresso \n - Machiatto \n - Cappuccino \nTEA: \n - Black Tea \n - Green Tea \n - White Tea \n - Oolong Tea \n - Purple Tea"]
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "What is your age?",
+        "How old are you?"
+      ],
+      "responses": [
+        "I was created few days ago.... So I can say that I am few days old! :)"
+      ]
+    },
+    {
+      "tag": "orderinfo",
+      "patterns": [
+        "Can I order coffee or tea online?",
+        "Can I order from home?",
+        "Can I order tea or coffee from home?",
+        "Can I order coffee or tea from home?"
+      ],
+      "responses": [
+        "I am SORRY to say but you have to come to our cafe to order something"
+      ]
+    },
+    {
+      "tag": "howtoorder",
+      "patterns": [
+        "How can i order something?",
+        "How can I order tea or coffee?"
+      ],
+      "responses": [
+        "You can always come and visit our Cafe between our working hours inorder to order something"
+      ]
+    }
+  ]
+}
